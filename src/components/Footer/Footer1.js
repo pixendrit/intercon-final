@@ -59,8 +59,13 @@ const Footer = () => {
                     <p className="footer-title gr-text-11 mb-7">Kontakt</p>
                     <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
-                        <a href="tel:+38348150316" target="_blank" className={linkClassName}>
-                          Tel
+                        <a href="tel:+38344150316" target="_blank" className={linkClassName}>
+                        044150316
+                        </a>
+                      </li>
+                      <li className="py-2">
+                        <a href="tel:+38349636110" target="_blank" className={linkClassName}>
+                        049636110
                         </a>
                       </li>
                       <li className="py-2">

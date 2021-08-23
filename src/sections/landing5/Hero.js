@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 import imgHeroBg from "../../assets/image/l8/png/hero-image.png";
 
 const Hero = () => {

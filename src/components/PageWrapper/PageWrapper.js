@@ -8,7 +8,7 @@ const headerConfigDefault = {
   align: "left",
   isFluid: false,
   button: "cta", // trial, cart, cta, account, null
-  buttonText: "+38348150316", // trial, cart, cta, account, null
+  buttonText: "Thirr tani", // trial, cart, cta, account, null
 };
 
 const footerConfigDefault = {
