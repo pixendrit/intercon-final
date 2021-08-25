@@ -8,6 +8,7 @@ const Categories = () => {
       {/* <!-- Categories Area --> */}
       <div className="category-area d-flex flex-row mt-n10 pb-19 pb-lg-21">
         <Container>
+          <br></br>
           <Row>
             <Col
               md="6"
@@ -19,7 +20,7 @@ const Categories = () => {
               <Link to="/#">
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
-                    <h3 className="category-title gr-text-6 mb-3 text-white text-center">
+                    <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
                       MATERIALET
                     </h3>
                   </div>
@@ -38,7 +39,7 @@ const Categories = () => {
               <Link to="/#">
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
-                    <h3 className="category-title gr-text-6 mb-3 text-white text-center">
+                    <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
                       KATALLOGU I BANESAVE
                     </h3>
                   </div>
@@ -56,7 +57,7 @@ const Categories = () => {
               <Link to="/#">
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
-                    <h3 className="category-title gr-text-6 mb-3 text-white text-center">
+                    <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
                       OBJEKTI 360°
                     </h3>
                   </div>

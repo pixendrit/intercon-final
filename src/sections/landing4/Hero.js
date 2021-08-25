@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import imgHero from "../../assets/image/l1/png/l1-hero-img.png";
+import imgHero from "../../assets/image/l8/png/hero-image.png";
 
 const Hero = () => {
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <div className="pb-11 pb-lg-14 pt-25 pt-lg-29 bg-default-1 position-relative">
+      <div className="pb-11 pb-lg-14 pt-25 pt-lg-29 bg-blue position-relative">
         <Container>
           <Row className="justify-content-center align-items-center">
             <Col
@@ -20,26 +19,9 @@ const Hero = () => {
               data-aos-duration="750"
               data-aos-delay="500"
             >
-              <div className="hero-content text-center">
-                <h1 className="gr-text-3 mb-8">
-                  Get things done by awesome remote team
-                </h1>
-                <p className="gr-text-8">
-                  We share common trends and strategies for improving your
-                  rental income and making sure you stay in high demand.
-                </p>
-                <div className="hero-btns d-flex flex-column flex-md-row justify-content-md-center mt-11">
-                  <Button className="btn btn-primary with-icon gr-hover-y mb-6 mb-md-0 mr-md-7">
-                    Get started for free
-                    <i className="fas fa-arrow-right gr-text-11"></i>
-                  </Button>
-                  <Link to="/#" className="btn btn-white gr-hover-y">
-                    Learn more
-                  </Link>
-                </div>
-              </div>
+             
             </Col>
-            <Col sm="10" className="mt-15 mt-lg-23">
+            <Col sm="12" className="mt-3 mt-lg-1">
               <div
                 className="hero-img"
                 data-aos="fade-left"
@@ -49,6 +31,16 @@ const Hero = () => {
                 <img className="img-fluid" src={imgHero} alt="" />
               </div>
             </Col>
+            <div className="hero-content text-center">
+            <p className="gr-text-8">
+            Blini banesën që gjithmonë keni ëndërruar, sepse...
+                </p>
+                <h1 className="gr-text-3 mb-8 text-narvik">
+                  Ne ndërtojmë për të ardhmen tuaj!
+                </h1>
+              
+             
+              </div>
           </Row>
         </Container>
       </div>

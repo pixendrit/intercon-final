@@ -8,7 +8,7 @@ const GlobalProvider = ({ children }) => {
   const [visibleOffCanvas, setVisibleOffCanvas] = useState(false);
   const [header, setHeader] = useState({
     theme: "light",
-    variant: "primary",
+    variant: "blue",
     align: "left",
     isFluid: false,
     button: "cta", // cta, account, null

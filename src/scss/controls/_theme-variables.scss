@@ -14,7 +14,7 @@
 // Body
 // Settings for the `<body>` element.
 
-$body-bg:#1c1e20;
+$body-bg: $blue;
 $body-color:                var(--color-texts-opacity);
 $border-color:              var(--border-color);
 
@@ -23,7 +23,7 @@ $border-color:              var(--border-color);
 // Style anchor elements.
 
 $link-color:                              $primary;
-$link-hover-color:                        darken($link-color, 15%);
+$link-hover-color:                        $sky-blue;
 $link-decoration:                         none;
 $link-hover-decoration:                   none;
 
