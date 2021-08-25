@@ -32,7 +32,7 @@ const Hero = () => {
               </div>
             </Col>
             <div className="hero-content text-center">
-            <p className="gr-text-8">
+            <p className="gr-text-8 pl-5 pr-5">
             Blini banesën që gjithmonë keni ëndërruar, sepse...
                 </p>
                 <h1 className="gr-text-3 mb-8 text-narvik">

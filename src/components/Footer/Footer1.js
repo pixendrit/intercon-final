@@ -38,7 +38,7 @@ const Footer = () => {
                 
                 <li className="mr-2">
                   <a href="https://www.facebook.com/interconferizaj" target="_blank" className={iconClassName}>
-                    <i className="icon icon-logo-facebook "></i>
+                    <i className="icon icon-logo-facebook"></i>
                   </a>
                 </li>
                 <li className="mr-2">

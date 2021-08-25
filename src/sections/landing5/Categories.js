@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 const Categories = () => {
   return (
     <>
@@ -18,10 +19,10 @@ const Categories = () => {
               data-aos-delay="550"
             >
               <Link to="/#">
-                <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
+                <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6" >
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
-                      MATERIALET
+                      MATERIALET  <i class="fas fa-external-link-alt"></i>
                     </h3>
                   </div>
                 </div>
@@ -40,7 +41,7 @@ const Categories = () => {
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
-                      KATALLOGU I BANESAVE
+                      KATALLOGU I BANESAVE  <i class="fas fa-external-link-alt"></i>
                     </h3>
                   </div>
                 </div>
@@ -58,7 +59,7 @@ const Categories = () => {
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
-                      OBJEKTI 360°
+                      OBJEKTI 360°  <i class="fas fa-external-link-alt"></i>
                     </h3>
                   </div>
                 </div>
