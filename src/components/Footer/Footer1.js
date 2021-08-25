@@ -50,10 +50,10 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
-              <Row>
+              <Row>  
                 <Col xs="6" lg="3">
                   <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Tel</p>
+                    <p className="footer-title gr-text-11 mb-7">Kontakt</p>
                     <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
                         <a href="tel:+38344150316" target="_blank" className={linkClassName}>
@@ -65,15 +65,6 @@ const Footer = () => {
                         049636110
                         </a>
                       </li>
-                   
-                    </ul>
-                  </div>
-                </Col>   
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Kontakt</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-    
                       <li className="py-2">
                         <a href="https://m.me/interconferizaj" target="_blank" className={linkClassName}>
                           Messenger

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import imgBG from "../../assets/image/l8/jpg/cta-bg.jpg";
+import imgBG from "../../assets/image/l8/png/hero-image.png";
 
 const CTA = () => {
   return (
@@ -17,12 +17,9 @@ const CTA = () => {
           <Row className="justify-content-center">
             <Col xs="10" sm="10" md="9" lg="8" xl="7">
               <div className="text-center dark-mode-texts">
-                <h2 className="gr-text-2 font-weight-bold pb-8 pb-md-12">
-                  A je gati me dekoru vendin ku jeton e punon?
+                <h2 className="gr-text-2 mt-12 font-weight-bold pb-8 pb-md-12">
+                Ne ndërtojmë për të ardhmen tuaj!
                 </h2>
-                <a href="https://m.me/rewood.official" target="_blank" className="btn btn-primary gr-hover-y">
-                 Fillo bisedën në messenger
-                </a>
               </div>
             </Col>
           </Row>

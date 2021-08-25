@@ -21,7 +21,7 @@ const Hero = () => {
             >
              
             </Col>
-            <Col sm="12" className="mt-3 mt-lg-1">
+            <Col sm="12" className="mt-1">
               <div
                 className="hero-img"
                 data-aos="fade-left"
@@ -32,9 +32,6 @@ const Hero = () => {
               </div>
             </Col>
             <div className="hero-content text-center">
-            <p className="gr-text-8 pl-5 pr-5">
-            Blini banesën që gjithmonë keni ëndërruar, sepse...
-                </p>
                 <h1 className="gr-text-3 mb-8 text-narvik">
                   Ne ndërtojmë për të ardhmen tuaj!
                 </h1>
