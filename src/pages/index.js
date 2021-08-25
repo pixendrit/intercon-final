@@ -1,7 +1,7 @@
 import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/landing4/Hero";
+import Hero from "../sections/landing5/Hero";
 import Categories from "../sections/landing5/Categories";
 const IndexPage = () => {
   return (

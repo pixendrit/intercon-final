@@ -16,10 +16,7 @@ const Hero = () => {
           <Row className="justify-content-center">
             <Col md="9" lg="7" xl="6">
               <div className="text-center">
-                <p className="gr-text-12 gr-text-color font-weight-bold text-uppercase mb-9">
-                Blini banesën që gjithmonë keni ëndërruar, sepse...
-                </p>
-                <h1 className="gr-text-2 mb-8">
+                <h1 className="gr-text-3 mt-30">
                 NE NDËRTOJMË PËR TË ARDHMEN TUAJ!
                 </h1>
               </div>
