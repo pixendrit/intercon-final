@@ -78,33 +78,7 @@ const AboutPage = () => {
           </div>
         </div>
         </div>
-        
-        <div className="pt-13 pt-lg-24 pb-lg-24 ">
-          <Container>
-            <Row className="justify-content-center">
-              
-              <Col
-                lg="3"
-                md="4"
-                xs="6"
-                className="mb-13 d-flex align-items-center"
-              >
-                <div className="mt-xs-n4S5">
-                  <h3 className="gr-text-9S">
-                    Rezervoni takimin tuaj
-                  </h3>
-                  <a
-                    href="tel:+38348150316"
-                    className="btn-link with-icon gr-text-blue gr-text-7 font-weight-bold mt-5"
-                  >
-                    Telefono në +383 48 150 316{" "}
-                    <i className="icon icon-tail-right font-weight-bold"></i>
-                  </a>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+  
       </PageWrapper>
     </>
   );
