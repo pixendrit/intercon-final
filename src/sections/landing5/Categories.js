@@ -18,7 +18,7 @@ const Categories = () => {
               data-aos-duration="1200"
               data-aos-delay="550"
             >
-              <Link to="/#">
+              <Link to="/materialet">
                 <div className="single-category w-100 rounded-10 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6" >
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
