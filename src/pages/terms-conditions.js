@@ -5,10 +5,16 @@ import PageWrapper from "../components/PageWrapper";
 const TermsConditions = () => {
   return (
     <>
-      <PageWrapper
+        <PageWrapper
         headerConfig={{
-          align: "right",
-          button: "account", // cta, account, null
+          theme: "dark",
+          align: "center",
+          isFluid: true,
+          button: "cta", // cta, account, null
+        }}
+        footerConfig={{
+          theme: "dark",
+           style: "style1", //style1, style2
         }}
       >
         <div className="inner-banner pt-29 pb-6">

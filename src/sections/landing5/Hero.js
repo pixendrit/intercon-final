@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       {/* <!-- Hero Area --> */}
       <div
-        className="dark-mode-texts pt-19 pt-lg-29 pb-35  bg-image mt-19 rounded-10 mx-md-6"
+        className="dark-mode-texts pt-19 pt-lg-29 pb-35  bg-image mt-19 rounded-0 mx-md-6"
         css={`
           background-image: url(${imgHeroBg});
         `}
