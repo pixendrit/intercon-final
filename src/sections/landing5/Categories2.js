@@ -9,7 +9,6 @@ const Categories2 = () => {
       {/* <!-- Categories Area --> */}
       <div className="category-area d-flex flex-row pt-20 mt-n10 pb-19 pb-lg-21">
         <Container>
-          <br></br>
           <Row>
             <Col
               md="6"

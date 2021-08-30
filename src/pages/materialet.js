@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { Row, Col, Container, Fade, Button } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
 import Categories2 from "../sections/landing5/Categories2";
-import imgP1 from "../assets/image/l8/png/product-image-1.png";
-import imgP2 from "../assets/image/l8/png/product-image-2.png";
-import imgP3 from "../assets/image/l8/png/product-image-3.png";
-import imgP4 from "../assets/image/l8/png/product-image-4.png";
 
 const ProductDetails = () => {
   const [active, setActive] = useState(1);
@@ -23,16 +19,17 @@ const ProductDetails = () => {
            style: "style1", //style1, style2
         }}
       >
-
-        <div className="pb-md-19 pt-md-19 pt-13 pb-13 mt-10">
-          <Container>
-            <nav className="pb-12">
-              <div className="nav gr-nav-tabs " id="nav-tab" role="tablist">
+        
+        <div className="d-flex align-items-start pb-md-19 pt-md-19 pt-13 pb-13 mt-10">
+          <Container className="container d-flex align-items-baseline flex-row-reverse ">
+            <nav className="d-flex align-items-start pb-12">
+              <div className="nav flex-column nav-pills ml-10" id="nav-tab" role="tablist" aria-orientation="vertical">
                 <a
                   href="/#"
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3   ${
                     active === 1 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 1}
                   onClick={(e) => {
@@ -43,9 +40,10 @@ const ProductDetails = () => {
                   Betoni
                 </a>
                 <a
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3   ${
                     active === 2 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 2}
                   href="/#"
@@ -57,9 +55,10 @@ const ProductDetails = () => {
                   Dritaret
                 </a>
                 <a
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3  ${
                     active === 3 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 3}
                   href="/#"
@@ -71,9 +70,10 @@ const ProductDetails = () => {
                   Fasada
                 </a>
                 <a
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3 ${
                     active === 4 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 3}
                   href="/#"
@@ -85,9 +85,10 @@ const ProductDetails = () => {
                   Ujë 24/7 
                 </a>
                 <a
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3   ${
                     active === 5 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 3}
                   href="/#"
@@ -99,9 +100,10 @@ const ProductDetails = () => {
                   Gjeneratorë & 2 lifte 
                 </a>
                 <a
-                  className={`nav-item nav-link gr-text-7 font-weight-bold ${
+                  className={`nav-item nav-link gr-text-10 font-weight-normal text-blue bg-narvik mb-3  ${
                     active === 6 ? "active" : ""
                   }`}
+                  type="button"
                   role="tab"
                   aria-selected={active === 3}
                   href="/#"
