@@ -1,21 +1,8 @@
 import React, { useContext } from "react";
-import { Link } from "react-scroll";
-
 import { Container, Row, Col } from "react-bootstrap";
-
 import GlobalContext from "../../context/GlobalContext";
-import DatePicker from "../../components/DatePicker";
-import { Select } from "../../components/Core";
-import imgHero from "../../assets/image/coworking/jpg/hero-img.jpg";
 import imgHeroBg from "../../assets/image/l8/png/hero-image.png";
 
-
-const defaultOptions = [
-  { value: "NY", label: "New York" },
-  { value: "SI", label: "Singapore" },
-  { value: "LN", label: "London" },
-  { value: "DH", label: "Dhaka" },
-];
 
 const Hero = () => {
   const gContext = useContext(GlobalContext);

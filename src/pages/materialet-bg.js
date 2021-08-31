@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "gatsby";
-
 import { Container, Row, Col, Button } from "react-bootstrap";
-const Categories2 = () => {
+import imgHeroBg from "../assets/image/l8/jpg/cover-2.jpg";
+import PageWrapper from "../components/PageWrapper";
+
+const Materialet = () => {
+
   return (
     <>
-      <div className="pt-20 mt-20 pb-19 pb-lg-21">
+     <PageWrapper
+        headerConfig={{
+          theme: "dark",
+          align: "center",
+          isFluid: true,
+          button: "cta", // cta, account, null
+        }}
+        footerConfig={{
+          theme: "dark",
+           style: "style1", //style1, style2
+        }}
+      >
+      {/* <!-- Hero Area --> */}
+      <div
+        className="co-working bg-image bg-overlay overlay-1 pb-13 pt-24 pt-lg-32 pb-lg-28 d-lg-flex align-items-center lg:min-h-vh-100"
+        css={`
+          background-image: url(${imgHeroBg});
+        `}
+      >
         <Container>    
           <Row >  
               <Link to="/terms-conditions" className="mb-13 mb-lg-0 col-lg-4 col-md-6 col-sm-10">
@@ -46,9 +67,11 @@ const Categories2 = () => {
               </Link>
               </Row>   
         </Container>
+    
       </div>
+      </PageWrapper>
     </>
   );
 };
 
-export default Categories2;
+export default Materialet;
