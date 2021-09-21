@@ -29,39 +29,99 @@ const Materialet = () => {
       >
         <Container>    
           <Row >  
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10">
-              <div className="ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0  btn btn-outline-primary text-primary ">
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
                   BETONI
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>        
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10 ">
-              <div className=" ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0  btn btn-outline-primary text-primary">
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10 ">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  ARMATURA
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  BLLOKAT
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10 ">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  FASADA E JASHTME
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10 ">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  SUVATIMI I BRENDSHËM
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
                   DRITARET
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10">
-              <div className="ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0   btn btn-outline-primary text-primary">
-                  FASADA
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  RRETHOJAT E TERASAVE
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10 ">
-              <div className="ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0  btn btn-outline-primary text-primary">
-                  UJË 24/7
+              <Link to="/terms-conditions" className="mb-4 mb-lg-0 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  INSTALIMET ELEKTRIKE
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10 ">
-              <div className="ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0  btn btn-outline-primary text-primary">
-                  GJENERATORË & LIFTE
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  INSTALIMET E UJIT DHE KANALIZIMIT
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>
-              <Link to="/terms-conditions" className="mb-7 mb-lg-0 col-lg-4 col-md-6 col-sm-10">
-              <div className="ml-4 mr-5 mb-5 with-icon gr-hover-y rounded-0  btn btn-outline-primary text-primary">
-                  ARGËTIM
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  INSTALIMET E NGROHJES
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  DYERT E BRENDSHME
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  KERAMIKA
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  LAMINATI
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  RRETHOJAT
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  HAPËSIRAT GJELBËRUESE DHE REKREATIVE
+                    <i className="icon icon-tail-right text-primary font-weight-bold"></i>
+                  </div>
+              </Link>
+              <Link to="/terms-conditions" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <div className="gr-text-11 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
+                  MIRËMBAJTJA DHE SIGURIA
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>
