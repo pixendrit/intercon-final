@@ -37,7 +37,7 @@ const Categories = () => {
               data-aos-delay="650"
             >
         
-              <Link to="/#">
+              <a href="https://katallogu-intercon.netlify.app/" target="_blank">
                 <div className="single-category w-100 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">
@@ -45,7 +45,7 @@ const Categories = () => {
                     </h3>
                   </div>
                 </div>
-              </Link>
+              </a>
         
             </Col>
             <Col
