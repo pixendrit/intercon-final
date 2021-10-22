@@ -1,9 +1,7 @@
 import React from "react";
 import imagePath from "../assets/frame.png";
-
 import PageWrapper from "../components/PageWrapper";
 import { Row, Col, Container } from "react-bootstrap";
-
 
 
 const Katallogu = () => {
@@ -66,6 +64,7 @@ const Katallogu = () => {
     <area target="_blank" alt="35" title="35" href="https://google.com" coords="252,719,347,715,351,593,249,593" shape="poly"/>
     <area target="_blank" alt="36" title="36" href="https://google.com" coords="252,589,351,590,349,487,317,487,317,467,250,465" shape="poly"/>
 </map>
+
 </Row>
 </Container>
 </div>
