@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import imagePath from "../assets/frame.png";
 import PageWrapper from "../components/PageWrapper";
 import { Row, Col, Container } from "react-bootstrap";
-
+import imageMapResize from ''
 
 const Katallogu = () => {
   return (
@@ -72,6 +72,12 @@ const Katallogu = () => {
     </>
   );
 };
+
+class App extends Component {
+  componentDidMount () {
+    imageMapResize();
+  }
+}
 
 export default Katallogu;
 
