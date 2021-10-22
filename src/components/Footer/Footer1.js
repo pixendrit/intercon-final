@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className={`footer-section pt-15 pt-lg-25 pb-lg-21 ${
+        className={`footer-section ${
           gContext.footer.theme === "dark"
             ? "dark-mode-texts bg-blue"
             : ""
@@ -50,26 +50,45 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
+              <Row>   <p className="footer-title gr-text-11 mb-7">Kontakt</p></Row>
               <Row>  
                 <Col xs="6" lg="3">
                   <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Kontakt</p>
+                   
                     <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
                         <a href="tel:+38344150316" target="_blank" className={linkClassName}>
                         044150316
                         </a>
                       </li>
+                    </ul>
+                  </div>
+                </Col>
+                <Col xs="6" lg="3">
+                  <div className="single-footer mb-13 mb-lg-9">
+                    <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
                         <a href="tel:+38349636110" target="_blank" className={linkClassName}>
                         049636110
                         </a>
                       </li>
+                    </ul>
+                  </div>
+                </Col>  
+                <Col xs="6" lg="3">
+                  <div className="single-footer mb-13 mb-lg-9">
+                    <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
                         <a href="https://m.me/interconferizaj" target="_blank" className={linkClassName}>
                           Messenger
                         </a>
                       </li>
+                    </ul>
+                  </div>
+                </Col> 
+                 <Col xs="6" lg="3">
+                  <div className="single-footer mb-13 mb-lg-9">
+                    <ul className="footer-list list-unstyled gr-text-9">
                       <li className="py-2">
                         <Link to="/lokacioni" className={linkClassName}>
                           Lokacioni
@@ -77,7 +96,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </Col>              
+                </Col> 
               </Row>
             </Col>
           </Row>

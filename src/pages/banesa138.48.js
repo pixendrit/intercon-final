@@ -24,6 +24,7 @@ const Banesa13848 = () => {
           <Container>
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
             <img src={banesa13848} alt="" className="w-100" />
+            
              
             </Row>
           </Container>
