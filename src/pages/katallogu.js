@@ -1,8 +1,8 @@
 import React from "react";
 import imagePath from "../assets/frame.png";
-import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
-
+import { Row, Col, Container } from "react-bootstrap";
+import ImageMap from "image-map";
 
 const Katallogu = () => {
   return (
@@ -18,12 +18,10 @@ const Katallogu = () => {
           theme: "light",
            style: "style1", //style1, style2
         }}
-      >
-          
-          <Container>
-            <Row className="justify-content-center mb-6 mt-md-6 pt-24 pt-lg-29">
-    
-    <img src={imagePath} usemap="#image-map"/>
+      >    
+   <Container>
+            <Row className="justify-content-center mt-md-6 pt-24 pb-10 pt-lg-29">
+    <img src={imagePath} usemap="#image-map" className="w-100"/>
 
 <map name="image-map">
     <area target="_blank" alt="1" title="1" href="https://google.com" coords="249,333,251,466,317,465,317,485,349,483,351,437,397,435,397,334" shape="poly"/>
@@ -69,6 +67,6 @@ const Katallogu = () => {
     </>
   );
 };
-
+ImageMap('img[usemap]')
 
 export default Katallogu;

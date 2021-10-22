@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^2.6.49",
     "gatsby-transformer-sharp": "^2.3.13",
     "google-map-react": "^1.1.7",
+    "image-map": "^2.0.1",
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
     "react": "^16.10.2",

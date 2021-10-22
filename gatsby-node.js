@@ -9,3 +9,4 @@ exports.onCreatePage = ({ page, actions }) => {
     createPage(page);
   }
 };
+

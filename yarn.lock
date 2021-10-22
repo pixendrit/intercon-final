@@ -7760,6 +7760,11 @@ ignore@^5.1.1, ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
+image-map@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/image-map/-/image-map-2.0.1.tgz#d9e87184cd944b263135d9f2e8dec5a75a8a5c7a"
+  integrity sha512-6SVn3CK7n4wtaWqW3vRSFvKKyQpChr7ADECmLTS9WsD4mTivkRgZ8OqfUBsg7bo5hm81oiO02aAyZ1dNu20xXQ==
+
 image-q@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/image-q/-/image-q-1.1.1.tgz#fc84099664460b90ca862d9300b6bfbbbfbf8056"
