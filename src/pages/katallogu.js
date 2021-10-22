@@ -3,6 +3,7 @@ import imagePath from "../assets/frame.png";
 import PageWrapper from "../components/PageWrapper";
 import { Row, Col, Container } from "react-bootstrap";
 import ImageMap from "image-map";
+import { MapInteractionCSS } from 'react-map-interaction';
 
 const Katallogu = () => {
   return (
@@ -21,7 +22,9 @@ const Katallogu = () => {
       >    
    <Container>
             <Row className="justify-content-center mt-md-6 pt-24 pb-10 pt-lg-29">
+            <MapInteractionCSS>
     <img src={imagePath} usemap="#image-map" className="w-100"/>
+    </MapInteractionCSS>
 
 <map name="image-map">
     <area target="_blank" alt="1" title="1" href="https://google.com" coords="249,333,251,466,317,465,317,485,349,483,351,437,397,435,397,334" shape="poly"/>
