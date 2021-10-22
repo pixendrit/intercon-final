@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
+
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import banesa13848 from "../assets/image/katallogu/katallogu-intercon-a5.png";
 
 
@@ -22,8 +24,13 @@ const Banesa13848 = () => {
       >
         <div className="inner-banner">
           <Container>
-            <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
+            <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29 pb-30">
+            <TransformWrapper>
+        <TransformComponent>
             <img src={banesa13848} alt="" className="w-100" />
+            </TransformComponent>
+      </TransformWrapper>
+
             
              
             </Row>

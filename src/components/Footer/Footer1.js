@@ -13,97 +13,55 @@ const Footer = () => {
       ? "gr-text-color gr-hover-text-green"
       : "gr-text-color gr-hover-text-blue";
 
-  const iconClassName =
-    gContext.footer.theme === "dark"
-      ? "text-storm gr-hover-text-green"
-      : "gr-text-color gr-hover-text-blue";
-
-  return (
-    <>
-      <div
-        className={`footer-section ${
-          gContext.footer.theme === "dark"
-            ? "dark-mode-texts bg-blue"
-            : ""
-        }`}
-      >
-        <Container>
-          <Row className="justify-content-center">
-            <Col lg="3" md="4">
-              <Logo
-                white={gContext.footer.theme === "dark"}
-                className="footer-logo mb-4"
-              />
-              <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
-                
-                <li className="mr-2">
-                  <a href="https://www.facebook.com/interconferizaj" target="_blank" className={iconClassName}>
-                    <i className="icon icon-logo-facebook"></i>
-                  </a>
-                </li>
-                <li className="mr-2">
-                  <a href="https://www.instagram.com/intercon_ferizaj/" target="_blank" className={iconClassName}>
-                    <i className="icon icon-instant-camera-2 "></i>
-                  </a>
-                </li>
-                
-              </ul>
-            </Col>
-            <Col lg="8" md="8" className="offset-lg-1">
-              <Row>   <p className="footer-title gr-text-11 mb-7">Kontakt</p></Row>
-              <Row>  
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                   
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <a href="tel:+38344150316" target="_blank" className={linkClassName}>
-                        044150316
-                        </a>
-                      </li>
-                    </ul>
+      return (
+        <>
+           <div
+              className={`footer-section ${
+                gContext.footer.theme === "dark"
+                  ? "dark-mode-texts bg-blue"
+                  : ""
+              }`}
+            >
+            <Container>
+              <Row className="justify-content-center align-items-center">
+                <Col lg="3" md="4">
+                  <div className="footer-logo text-center text-md-left mb-7 mb-md-5">
+                    <Logo
+                      white={gContext.footer.theme === "dark"}
+                      className="mx-auto mx-md-3"
+                    />
                   </div>
                 </Col>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <a href="tel:+38349636110" target="_blank" className={linkClassName}>
-                        049636110
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>  
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <a href="https://m.me/interconferizaj" target="_blank" className={linkClassName}>
-                          Messenger
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </Col> 
-                 <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link to="/lokacioni" className={linkClassName}>
-                          Lokacioni
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </Col> 
+                <Col lg="8" md="8" className="offset-lg-1">
+                  <ul className="footer-links gr-text-11 py-lg-7 list-unstyled mb-5 d-xs-flex align-items-center justify-content-around justify-content-md-end flex-wrap">
+                    <li className="ml-md-12 text-center">
+                    <a href="tel:+38344150316" target="_blank" className={linkClassName}>
+                              044150316
+                              </a>
+                    </li>
+                    <li className="ml-md-12 text-center">
+                    <a href="tel:+38349636110" target="_blank" className={linkClassName}>
+                              049636110
+                              </a>
+                    </li>
+                    <li className="ml-md-12 text-center">
+                    <a href="https://m.me/interconferizaj" target="_blank" className={linkClassName}>
+                                Messenger
+                              </a>
+                    </li>
+                    <li className="ml-md-12 text-center">
+                    <Link to="/lokacioni" className={linkClassName}>
+                                Lokacioni
+                              </Link>
+                    </li>
+                  </ul>
+                </Col>
               </Row>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </>
-  );
-};
-
+            </Container>
+          </div>
+        </>
+      );
+      };
 export default Footer;
+
+
