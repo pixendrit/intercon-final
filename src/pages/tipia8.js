@@ -1,13 +1,10 @@
 import React from "react";
 import {Row, Col, Container} from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
-
 import {TransformWrapper, TransformComponent} from "react-zoom-pan-pinch";
-import banesa13848 from "../assets/image/katallogu/katallogu-intercon-a5.png";
-import imagePath from "../assets/frame.png";
+import A8 from "../assets/image/png/A8/A8-1.png";
 
-
-const Banesa13848 = () => {
+const Tipia8 = () => {
     return (
         <>
             <PageWrapper
@@ -32,13 +29,13 @@ const Banesa13848 = () => {
                             >
                                 {({zoomIn, zoomOut, resetTransform, ...rest}) => (
                                     <React.Fragment>
-                                        <div className="tools">
-                                            <button onClick={() => zoomIn()}>+</button>
-                                            <button onClick={() => zoomOut()}>-</button>
-                                            <button onClick={() => resetTransform()}>x</button>
+                                        <div className="tools d-flex">
+                                            <button class="amount-inc-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomIn()}>+</button>
+                                            <button class="amount-dec-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomOut()}>-</button>
+                                            <button class="btn-reset circle-xs bg-gray-3 mx-2" onClick={() => resetTransform()}>x</button>
                                         </div>
                                         <TransformComponent>
-                                            <img src={banesa13848} alt="" className="w-100"/>
+                                            <img src={A8} alt="" className="w-100"/>
                                         </TransformComponent>
                                     </React.Fragment>
                                 )}
@@ -52,4 +49,4 @@ const Banesa13848 = () => {
         </>
     );
 };
-export default Banesa13848;
+export default Tipia8;
