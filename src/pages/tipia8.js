@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import {Row, Col, Container} from "react-bootstrap";
 import PageWrapper from "../components/PageWrapper";
 import {TransformWrapper, TransformComponent} from "react-zoom-pan-pinch";
@@ -29,10 +30,10 @@ const Tipia8 = () => {
                             >
                                 {({zoomIn, zoomOut, resetTransform, ...rest}) => (
                                     <React.Fragment>
-                                        <div className="tools d-flex">
-                                            <button class="amount-inc-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomIn()}>+</button>
-                                            <button class="amount-dec-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomOut()}>-</button>
-                                            <button class="btn-reset circle-xs bg-gray-3 mx-2" onClick={() => resetTransform()}>x</button>
+                                         <div className="tools d-flex">
+                                            <button class="amount-inc-btn btn-reset square-xs bg-gray-3 mx-2" onClick={() => zoomIn()}>+</button>
+                                            <button class="amount-dec-btn btn-reset square-xs bg-gray-3 mx-2" onClick={() => zoomOut()}>-</button>
+                                            <button class="btn-reset square-xs bg-gray-3 mx-2" onClick={() => resetTransform()}>x</button>
                                         </div>
                                         <TransformComponent>
                                             <img src={A8} alt="" className="w-100"/>
@@ -42,6 +43,29 @@ const Tipia8 = () => {
                             </TransformWrapper>
                         </Row>
                     </Container>
+                    <Row className="align-items-center justify-content-center">
+            <Col lg="10">
+              <div
+                className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
+                <h2 className="title gr-text-5 mb-6 mb-sm-0 mr-sm-9 ">
+                  Kthehu te katallogu
+                </h2>
+                <div
+                  className="cta-btn"
+                  data-aos="zoom-in"
+                  data-aos-duration="700"
+                  data-aos-delay="500"
+                >
+                  <Link to="/katallogu" className="btn btn-white bg-white gr-hover-y">
+                  <i class="fas fa-arrow-left"></i>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+          </Row>
                 </div>
 
 

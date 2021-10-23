@@ -31,9 +31,9 @@ const Tipia1 = () => {
                                 {({zoomIn, zoomOut, resetTransform, ...rest}) => (
                                     <React.Fragment>
                                         <div className="tools d-flex">
-                                            <button class="amount-inc-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomIn()}>+</button>
-                                            <button class="amount-dec-btn btn-reset circle-xs bg-gray-3 mx-2" onClick={() => zoomOut()}>-</button>
-                                            <button class="btn-reset circle-xs bg-gray-3 mx-2" onClick={() => resetTransform()}>x</button>
+                                            <button class="amount-inc-btn btn-reset square-xs bg-gray-3 mx-2" onClick={() => zoomIn()}>+</button>
+                                            <button class="amount-dec-btn btn-reset square-xs bg-gray-3 mx-2" onClick={() => zoomOut()}>-</button>
+                                            <button class="btn-reset square-xs bg-gray-3 mx-2" onClick={() => resetTransform()}>x</button>
                                         </div>
                                         <TransformComponent>
                                             <img src={A1} alt="" className="w-100"/>
@@ -45,7 +45,7 @@ const Tipia1 = () => {
                     </Container>
                 </div>
                 <div className="cta-section bg-blue dark-mode-texts pt-5 pb-13 pt-md-15 pb-md-15 ">
-        <Container>
+        
           <Row className="align-items-center justify-content-center">
             <Col lg="10">
               <div
@@ -69,7 +69,6 @@ const Tipia1 = () => {
               </div>
             </Col>
           </Row>
-        </Container>
       </div>
 
 
