@@ -46,7 +46,7 @@ const Tipia1 = () => {
                 </div>
                 <div className="cta-section bg-blue dark-mode-texts pt-5 pb-13 pt-md-15 pb-md-15 ">
         
-          <Row className="align-items-center justify-content-center">
+          <Row className="align-items-center justify-content-center pb-5">
             <Col lg="10">
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"

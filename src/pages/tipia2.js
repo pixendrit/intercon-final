@@ -22,7 +22,7 @@ const Tipia2 = () => {
             >
                 <div className="inner-banner">
                     <Container>
-                        <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29 pb-30">
+          <Row className="align-items-center justify-content-center pb-5">
                             <TransformWrapper
                                 initialScale={1}
                                 initialPositionX={0}
@@ -44,7 +44,7 @@ const Tipia2 = () => {
                         </Row>
                         
                     </Container>
-                    <Row className="align-items-center justify-content-center">
+                    <Row className="align-items-center justify-content-center pb-5">
             <Col lg="10">
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"

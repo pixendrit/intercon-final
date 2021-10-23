@@ -42,7 +42,7 @@ const Tipia4 = () => {
                                 )}
                             </TransformWrapper>
                         </Row>
-                        <Row className="align-items-center justify-content-center">
+                        <Row className="align-items-center justify-content-center pb-5">
             <Col lg="10">
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
