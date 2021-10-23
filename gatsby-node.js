@@ -16,7 +16,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /bad-module/,
+            test: /image-map-resizer/,
             use: loaders.null(),
           },
         ],
@@ -25,3 +25,4 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   }
 }
 
+const isBrowser = typeof window !== "undefined"
