@@ -1,72 +1,83 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import situacioni from "../../assets/image/png/A4/Situacioni.png";
+import img3d from "../../assets/image/png/A4/3d.png";
+import img2d from "../../assets/image/png/A4/2d.png";
 
-import imgB1 from "../../assets/image/l4/png/l4-brand1.png";
-import imgB2 from "../../assets/image/l4/png/l4-brand2.png";
-import imgB3 from "../../assets/image/l4/png/l4-brand3.png";
-import imgB4 from "../../assets/image/l4/png/l4-brand4.png";
-import imgB5 from "../../assets/image/l4/png/l4-brand6.png";
-
-const Brands = () => {
+const A401 = () => { 
   return (
     <>
       {/* <!-- Brands Area --> */}
-      <div className="brand-section pt-13 pt-lg-17 pb-11 border-bottom bg-default-6">
+      <div className="brand-section pb-5 border-bottom bg-blackish-blue">
         <Container>
-          <Row className="justify-content-center align-items-center">
-            <Col md="8">
-              <p className="gr-text-9 text-center mb-7">
-                Trusted by over 4,000+ customers, some of them are here
-              </p>
-            </Col>
+          <Row className="justify-content-center align-items-center flex-nowrap">
             <Col xs="12">
-              <div className="brand-logos d-flex justify-content-center justify-content-xl-between align-items-center mx-n9 flex-wrap">
-                <div
-                  className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="500"
-                >
-                  <img src={imgB1} alt="" className="w-100" />
-                </div>
-                <div
-                  className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="500"
-                  data-aos-delay="200"
-                >
-                  <img src={imgB2} alt="" className="w-100" />
-                </div>
-                <div
-                  className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="500"
-                  data-aos-delay="400"
-                >
-                  <img src={imgB3} alt="" className="w-100" />
-                </div>
-                <div
-                  className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="500"
-                  data-aos-delay="600"
-                >
-                  <img src={imgB4} alt="" className="w-100" />
-                </div>
-                <div
-                  className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
-                  data-aos="zoom-in-right"
-                  data-aos-duration="800"
-                  data-aos-delay="800"
-                >
-                  <img src={imgB5} alt="" className="w-100" />
+              <div className="brand-logos d-flex justify-content-center justify-content-between align-items-vertically  flex-nowrap">
+              <div
+                className="content-text pr-lg-7"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              >
+                <h2 className="gr-text-4 pt-15 px-5 pb-5 bg-sky-blue mb-8 mr-10">
+                  Tipi A4
+                </h2>
+                <p className="gr-text-5 mb-0">
+                  67.75 m².{" "}
+                </p>
+
+              </div>
+              <div className="content-widget d-flex align-items-start flex-column mt-8"> 
+                  <div className="widget-icon text-primary mr-6 gr-text-8 d-flex align-items-center">
+                    <i className="icon icon-check-simple mr-5"></i>
+                  
+                  <h3 className="w-title gr-text-10 mb-3">
+                    Qëndrimi ditor + Kuzhina
+                  </h3>
+                  </div>
+                  <div className="widget-icon text-primary mr-6 gr-text-10 d-flex align-items-center">
+                    <i className="icon icon-check-simple mr-5"></i>
+                  
+                  <h3 className="w-title gr-text-10 mb-3">
+                    Terasa
+                  </h3>
+                  </div>
+                  <div className="widget-icon text-primary mr-6 gr-text-10 d-flex align-items-center">
+                    <i className="icon icon-check-simple mr-5"></i>
+                 
+                  <h3 className="w-title gr-text-10 mb-3">
+                    Dhoma Gjumi
+                  </h3>
+                  </div>
+                  <div className="widget-icon text-primary mr-6 gr-text-10 d-flex align-items-center">
+                    <i className="icon icon-check-simple mr-5"></i>
+                 
+                  <h3 className="w-title gr-text-10 mb-3">
+                    Banjo
+                  </h3>
+                  </div>
+        </div>
+                <div>                
+                  <img src={situacioni} alt="" className="w-100" />
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
+        
+      </div>
+      <div className="brand-section pb-5 border-bottom bg-primary d-flex align-items-start flex-column">
+        <Container>
+          <Row >
+            <img className="banner-fluid-image pt-lg-9 w-100" src={img3d} alt="" />
+          </Row>
+          <Row>
+          <img className="banner-fluid-image pt-lg-9 w-100" src={img2d} alt="" />
+          </Row>
+        </Container>
+        
       </div>
     </>
   );
 };
 
-export default Brands;
+export default A401;

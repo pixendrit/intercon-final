@@ -13,26 +13,25 @@ import CTA from "../sections/landing12/CTA";
 const Ecommerce = () => {
   return (
     <>
-      <PageWrapper
+     <PageWrapper
         headerConfig={{
-          theme: "light",
-          align: "left",
+          theme: "dark",
+          align: "center",
           isFluid: true,
-          button: "account", // cta, account, null
+          button: "cta", // cta, account, null
         }}
         footerConfig={{
-          theme: "light",
-          // style: "style1", //style1, style2
+          theme: "dark",
+           style: "style1", //style1, style2
         }}
       >
-        <Hero />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Brands />
-        <Features />
-        <Content1 />
-        <Content2 />
-        <Team />
-        <Content3 />
-        <CTA />
+
       </PageWrapper>
     </>
   );
