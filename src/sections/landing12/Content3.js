@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-tilt";
 
-import imgC from "../../assets/image/telemedicine/png/content-3-img.png";
-import imgCS from "../../assets/image/telemedicine/png/content3-img-sub.png";
+import img3d from "../../assets/image/png/A4/3d.png";
+import img2d from "../../assets/image/png/A4/2d.png";
+import situacioni from "../../assets/image/png/A4/situacioni.png";
 
 const Content3 = () => {
   return (
@@ -18,9 +19,9 @@ const Content3 = () => {
                 data-aos="fade-right"
                 data-aos-duration="1000"
               >
-                <img className="main-img w-100 w-lg-auto" src={imgC} alt="" />
+                <img className="main-img w-100 w-lg-auto" src={img3d} alt="" />
                 <Tilt className="gr-abs-img-custom-2 animation-tilt">
-                  <img src={imgCS} alt="" className="responsive-scaling" />
+                  <img src={situacioni} alt="" className="responsive-scaling" />
                 </Tilt>
               </div>
             </Col>
@@ -31,11 +32,10 @@ const Content3 = () => {
                 data-aos-duration="1200"
               >
                 <h2 className="gr-text-4 mb-8">
-                  Create your medical profile, control everything.
+                  Tipi A4
                 </h2>
-                <p className="gr-text-9 mb-0">
-                  We've made telemedicine simple and easy for you. Create your
-                  personal room and start practicing telemedicine today.{" "}
+                <p className="gr-text-5 mb-0">
+                  67.75 m².{" "}
                 </p>
                 <div className="content-widget mt-8">
                   <Row>
