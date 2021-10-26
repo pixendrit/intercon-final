@@ -4,7 +4,6 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing9/Hero";
 import Content1 from "../sections/landing9/Content1";
 import Content2 from "../sections/landing9/Content2";
-import Content3 from "../sections/landing9/Content3";
 import Pricing from "../sections/landing9/Pricing";
 import CTA from "../sections/landing9/CTA";
 
@@ -26,7 +25,6 @@ const Product = () => {
         <Hero />
         <Content1 />
         <Content2 />
-        <Content3 />
         <Pricing />
         <CTA />
       </PageWrapper>

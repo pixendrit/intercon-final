@@ -10,10 +10,9 @@ const Process = () => {
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mb-11 mb-lg-17">
-                <h2 className="title gr-text-3 mb-7">How does it work?</h2>
-                <p className="px-lg-8 gr-text-8">
-                  With lots of unique blocks, you can easily build a page easily
-                  without any coding.{" "}
+                <h2 className="title gr-text-3 mb-7">Tipi a4</h2>
+                <p className="px-lg-8 gr-text-5">
+                  67.75 m²{" "}
                 </p>
               </div>
             </Col>

@@ -15,8 +15,8 @@
     margin-bottom: 40px;
     text-align: center;
     @include brk-point(400px) {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 1px;
+      padding-right: 1px;
       min-width: calc(80% - 15px);
       max-width: calc(80% - 15px);
     }

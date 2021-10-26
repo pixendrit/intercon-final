@@ -63,7 +63,7 @@ const A401 = () => {
                   </h3>
                   </div>
                   <div className="widget-icon text-primary mr-6 gr-text-10 d-flex align-items-center">
-                    <i className="icon icon-check-simple mr-5"></i>
+                    <i className="icon icon-check-simple"></i>
                  
                   <h3 className="w-title gr-text-10 mb-3">
                     Dhoma Gjumi
