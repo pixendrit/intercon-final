@@ -16,7 +16,7 @@ const A402 = () => {
         headerConfig={{
           theme: "dark",
           align: "center",
-          isFluid: true, 
+          isFluid: true,
           button: "cta", // cta, account, null
         }}
         footerConfig={{
@@ -64,7 +64,6 @@ const A402 = () => {
                   </div>
                   <div className="widget-icon text-primary mr-6 gr-text-10 d-flex align-items-center">
                     <i className="icon icon-check-simple mr-5"></i>
-                 
                   <h3 className="w-title gr-text-10 mb-3">
                     Dhoma Gjumi
                   </h3>
@@ -90,46 +89,28 @@ const A402 = () => {
       <div className="brand-section pb-5 border-bottom bg-primary d-flex align-items-start flex-column">
         <Container>
         <Row>
+        <Zoom>
         <div
                 className="hero-img"
                 data-aos="fade-left"
                 data-aos-duration="750"
                 data-aos-delay="500"
               >
-        <div className="section-title">
-                  <h3 className="title text-blue gr-text-4 mx-3 mb-7 mt-5">
-                    Pamja 2 dimensionale e banesës
-                  </h3>
-           
-                </div>
-        <Zoom>
-          <img className="banner-fluid-image pt-lg-9 w-100" src={img2d} alt="Render 2d" />
+          <img className="banner-fluid-image pt-lg-9 w-100" src={img2d} alt="Render 2d" /> 
+          </div>   
         </Zoom>
-        </div>
           </Row>
           <Row >
-          <div
-                className="hero-img"
-                data-aos="fade-left"
-                data-aos-duration="750"
-                data-aos-delay="500"
-              >
-          <div className="section-title">
-                  <h3 className="title text-blue gr-text-4 mx-3 mb-7 mt-5">
-                  Pamja 3 dimensionale e banesës 
-                  </h3>
-                
-                </div>
          <Zoom>
+           <div>
           <img className="banner-fluid-image pt-lg-9 w-100" src={img3d} alt="Render 3d" />
+          </div>
          </Zoom>
-         </div>
           </Row>
-      
         </Container>
         
       </div>
-      <Row className="align-items-center justify-content-center pt-10 pb-10">
+      <Row className="align-items-center bg-blue justify-content-center pt-10 pb-10">
             <Col lg="10">
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
