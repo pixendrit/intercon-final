@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import imgL from "../../assets/image/l7/png/product-left.png";
 import imgR from "../../assets/image/l7/png/product-right.png";
+import img3d from "../../assets/image/png/A4/3d.png";
+import img2d from "../../assets/image/png/A4/2d.png";
+
 
 const Content = () => {
   return (
@@ -26,16 +29,16 @@ const Content = () => {
                   <div
                     className="left-side-image"
                     data-aos="fade-right"
-                    data-aos-duration="750"
+                    data-aos-duration="50"
                   >
-                    <img src={imgL} alt="" className="w-100" />
+                    <img src={img3d} alt="" className="w-100" />
                   </div>
                   <div
                     className="right-side-image mt-25"
                     data-aos="fade-left"
-                    data-aos-duration="750"
+                    data-aos-duration="50"
                   >
-                    <img src={imgR} alt="" className="w-100" />
+                    <img src={img2d} alt="" className="w-100" />
                   </div>
                 </div>
               </div>

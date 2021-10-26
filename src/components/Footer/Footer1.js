@@ -25,7 +25,7 @@ const Footer = () => {
             <Container>
               <Row className="justify-content-center align-items-center">
                 <Col lg="3" md="4">
-                  <div className="footer-logo text-center text-md-left mb-7 mb-md-5">
+                  <div className="footer-logo text-center text-md-left pt-3 mb-7 mb-md-5">
                     <Logo
                       white={gContext.footer.theme === "dark"}
                       className="mx-auto mx-md-3"
