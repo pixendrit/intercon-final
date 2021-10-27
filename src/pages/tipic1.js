@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Link } from "gatsby";
-import img3d from "../assets/image/png/A1/a1-3d-resized.png";
-import img2d from "../assets/image/png/A1/a1-2d-resized.png";
+import img3d from "../assets/image/png/C1/c1-resized-3d.png";
+import img2d from "../assets/image/png/C1/c1-resized-2d.png";
 
 
-const Tipia1 = () => { 
+const Tipic1 = () => { 
   return (
     <>
     <PageWrapper
@@ -34,9 +34,9 @@ const Tipia1 = () => {
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mt-5 mb-11 mb-lg-17">
-                <h2 className="title gr-text-3 mb-7">Tipi a1</h2>
+                <h2 className="title gr-text-3 mb-7">Tipi c1</h2>
                 <p className="px-lg-8 gr-text-5">
-                  94.27 m²{" "}
+                  93.66 m²{" "}
                 </p>
               </div>
             </Col>
@@ -189,4 +189,4 @@ const Tipia1 = () => {
   );
 };
 
-export default Tipia1;
+export default Tipic1;
