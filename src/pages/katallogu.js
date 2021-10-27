@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { Link } from "gatsby";
 import imagePath from "../assets/frame.png";
 import PageWrapper from "../components/PageWrapper";
-import {Row, Col, Container} from "react-bootstrap";
+import {Row, Container} from "react-bootstrap";
 import imageMapResize from 'image-map-resizer';
 
 
@@ -29,7 +29,7 @@ class Katallogu extends Component {
                     <div className="inner-banner">
                         <Container>
                             <Row className="justify-content-center mt-md-6 pt-24 pb-10 pt-lg-29">
-                                <img src={imagePath} useMap="#image-map" className="w-100"/>
+                                <img src={imagePath} alt="katallogu" useMap="#image-map" className="w-100"/>
                                 <map name="image-map">
                                 <Link to="/tipia5" >
                                     <area target="_blank" alt="a5-1" title="a5-1"  coords="249,333,251,466,317,465,317,485,349,483,351,437,397,435,397,334"

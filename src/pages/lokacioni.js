@@ -47,7 +47,7 @@ const AboutPage = () => {
                <Col lg="6" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">
-                  <a href="https://goo.gl/maps/oDmkuiMnHQ3J9BEfA" target="_blank">Merr drejtimet</a>
+                  <a href="https://goo.gl/maps/oDmkuiMnHQ3J9BEfA" target="_blank" rel="noreferrer">Merr drejtimet</a>
                   </h2>
                 </div>
               </Col>

@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "gatsby";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import imgHeroBg from "../assets/image/l8/png/cover-3.png";
 import PageWrapper from "../components/PageWrapper";
 

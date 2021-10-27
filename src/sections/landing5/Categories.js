@@ -55,7 +55,7 @@ const Categories = () => {
               data-aos-duration="1200"
               data-aos-delay="750"
             >
-              <a href="https://intercon3d.netlify.app/" target="_blank">
+              <a href="https://intercon3d.netlify.app/" target="_blank" rel="noreferrer">
                 <div className="single-category w-100 bg-primary d-inline-block px-12 pt-9 pb-1 mb-9 gr-hover-shadow-6 ">
                   <div className="case-content mb-9">
                     <h3 className="category-title gr-text-6 mb-3 text-blue text-center">

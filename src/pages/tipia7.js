@@ -29,64 +29,64 @@ const Tipia7 = () => {
       <br/>
       {/* <!-- Brands Area --> */}
 
-      <div className="how-section pb-13 pt-lg-13 pb-lg-25  bg-default-1">
+      <div className="how-section pb-5 pt-lg-10 pb-lg-8  bg-default-1">
         <Container>
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
-              <div className="section-title text-center mt-5 mb-11 mb-lg-17">
-                <h2 className="title gr-text-3 mb-7">Tipi a7</h2>
+              <div className="section-title text-center mt-5 mb-3 mb-lg-5">
+                <h2 className="title gr-text-3 mb-7">Tipi A7</h2>
                 <p className="px-lg-8 gr-text-5">
-                  91.50 m²{" "}
+                  85.39 m²{" "}
                 </p>
               </div>
             </Col>
           </Row>
-          <div className="fact-section pt-lg-5 pb-lg-5 bg-default-1 border-bottom border-gray-3 ">
-          <Row className="justify-content-between align-items-center mb-n9">
-            <Col sm="6" md="6" lg="5" className="mb-9">
+          <div className="fact-section pt-lg-5 pb-lg-5 bg-default-1">
+          <Row className="justify-content-between align-items-center">
+            <Col sm="6" md="6" lg="5" className="mb-3">
               <div className="single-fact d-flex px-9 px-sm-0 px-xl-9">
-                <span className="gr-text-3 mr-9"><i className="icon icon-check-simple"></i></span>
-                <p className="gr-text-9 mb-0">
+                <span className="gr-text-7 mr-9"><i className="icon icon-check-simple"></i></span>
+                <p className="gr-text-10 mb-0">
                 Qëndrimi ditor + Kuzhina
                 </p>
               </div>
             </Col>
-            <Col sm="6" md="6" lg="5" className="mb-9">
+            <Col sm="6" md="6" lg="5" className="mb-3">
               <div className="single-fact d-flex px-9 px-sm-0 px-xl-9">
-                <span className="gr-text-3 mr-9">
+                <span className="gr-text-7 mr-9">
                 <i className="icon icon-check-simple"></i>
                 </span>
-                <p className="gr-text-9 mb-0">
+                <p className="gr-text-10 mb-0">
                 Terasa
                 </p>
               </div>
             </Col>
-            <Col sm="6" md="6" lg="5" className="mb-9">
+            <Col sm="6" md="6" lg="5" className="mb-3">
               <div className="single-fact d-flex px-9 px-sm-0 px-xl-9">
-                <span className="gr-text-3 mr-9">
+                <span className="gr-text-7 mr-9">
                 <i className="icon icon-check-simple"></i>
                 </span>
-                <p className="gr-text-9 mb-0">
+                <p className="gr-text-10 mb-0">
                 2 Dhoma Gjumi
                 </p>
               </div>
             </Col>
-            <Col sm="6" md="6" lg="5" className="mb-9">
+            <Col sm="6" md="6" lg="5" className="mb-3">
               <div className="single-fact d-flex px-9 px-sm-0 px-xl-9">
-                <span className="gr-text-3 mr-9">
+                <span className="gr-text-7 mr-9">
                 <i className="icon icon-check-simple"></i>
                 </span>
-                <p className="gr-text-9 mb-0">
+                <p className="gr-text-10 mb-0">
                 Depo
                 </p>
               </div>
             </Col>
-            <Col sm="6" md="6" lg="5" className="mb-9">
+            <Col sm="6" md="6" lg="5" className="mb-3">
               <div className="single-fact d-flex px-9 px-sm-0 px-xl-9">
-                <span className="gr-text-3 mr-9">
+                <span className="gr-text-7 mr-9">
                 <i className="icon icon-check-simple"></i>
                 </span>
-                <p className="gr-text-9 mb-0">
+                <p className="gr-text-10 mb-0">
                 Banjo
                 </p>
               </div>
@@ -96,13 +96,13 @@ const Tipia7 = () => {
         </Container>
       </div>
 
-      <div className="content-section bg-blue pt-lg-13 pb-13 pb-lg-21">
+      <div className="content-section bg-blue pt-lg-8 pb-8 pb-lg-15">
         <Container>
           <Row className="align-items-center justify-content-center">
             <Col
               sm="10"
               lg="6"
-              className="offset-xl-1  order-lg-2 mb-9 mb-lg-0"
+              className="offset-xl-1  order-lg-2 mb-3 mb-lg-0"
             >
               <div
                 className="double-image-group-opacity"
@@ -117,18 +117,18 @@ const Tipia7 = () => {
             </Col>
             <Col sm="10" lg="5" className="order-lg-1">
               <div className="content-text">
-                <h2 className="gr-text-3 mb-7">
-                  Ndërtim i saktë deri në milimetrin e fundit!
+                <h2 className="mb-3">
+                  Pamja 2 dimensionale e banesës!
                 </h2>
-                <p className="gr-text-8 mb-0">
-                  Kliko foton për ta zmadhuar atë.
+                <p className="gr-text-12 mb-0">
+                  Kliko foton për ta zmadhuar.
                 </p>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
-      <div className="content-section bg-white pt-lg-15 pb-13 pb-lg-24">
+      <div className="content-section bg-white pt-lg-8 pb-8 pb-lg-15">
         <Container>
           <Row className="align-items-center justify-content-center">
             <Col sm="10" lg="7">
@@ -148,13 +148,12 @@ const Tipia7 = () => {
               </div>
             </Col>
             <Col sm="10" lg="5">
-              <div className="content-text  pt-11 pt-lg-0 pl-xl-7">
-                <h2 className="gr-text-4 text-mirage-2 mb-7">
-                  Shikoni si do të duket banesa juaj <br className="d-none d2-lg-block" />
-                  nga 3d modelimi i saj.
+              <div className="content-text pt-3 pt-lg-0 pl-xl-7">
+                <h2 className="text-mirage-2 mb-3">
+                  Dukja e banesës nga 3d modelimi i saj.
                 </h2>
-                <p className="gr-text-8 text-mirage-2 mb-0">
-                  Klikoni foton për ta zmadhuar atë.
+                <p className="gr-text-12 text-mirage-2 mb-0">
+                  Klikoni foton për ta zmadhuar.
                 </p>
               </div>
             </Col>

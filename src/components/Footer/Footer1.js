@@ -35,17 +35,17 @@ const Footer = () => {
                 <Col lg="8" md="8" className="offset-lg-1">
                   <ul className="footer-links gr-text-11 py-lg-7 list-unstyled mb-5 d-xs-flex align-items-center justify-content-around justify-content-md-end flex-wrap">
                     <li className="ml-md-12 text-center">
-                    <a href="tel:+38344150316" target="_blank" className={linkClassName}>
+                    <a href="tel:+38344150316" target="_blank" rel="noreferrer" className={linkClassName}>
                               044150316
                               </a>
                     </li>
                     <li className="ml-md-12 text-center">
-                    <a href="tel:+38349636110" target="_blank" className={linkClassName}>
+                    <a href="tel:+38349636110" target="_blank" rel="noreferrer" className={linkClassName}>
                               049636110
                               </a>
                     </li>
                     <li className="ml-md-12 text-center">
-                    <a href="https://m.me/interconferizaj" target="_blank" className={linkClassName}>
+                    <a href="https://m.me/interconferizaj" target="_blank" rel="noreferrer" className={linkClassName}>
                                 Messenger
                               </a>
                     </li>

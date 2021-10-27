@@ -13,8 +13,6 @@ import AOS from "aos";
 import Header from "../Header";
 import Footer from "../Footer";
 
-import ModalVideo from "../ModalVideo";
-
 import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
@@ -131,8 +129,6 @@ const Layout = ({ children, pageContext }) => {
             {children}
             <Footer isDark={gContext.footerDark} />
           </div>
-
-          <ModalVideo />
         </div>
       </ThemeProvider>
     );
@@ -158,8 +154,6 @@ const Layout = ({ children, pageContext }) => {
 
             <Footer isDark={gContext.footerDark} />
           </div>
-
-          <ModalVideo />
         </div>
       </ThemeProvider>
     </>

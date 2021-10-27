@@ -5,9 +5,9 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Link } from "gatsby";
 
 import GlobalContext from "../../context/GlobalContext";
-import CartContext from "../../context/CartContext";
+
 import Offcanvas from "../Offcanvas";
-import NestedMenu from "../NestedMenu";
+
 import { device } from "../../utils";
 import Logo from "../Logo";
 import { menuItems } from "./menuItems";
@@ -36,16 +36,9 @@ const SiteHeader = styled.header`
   }
 `;
 
-const ToggleButton = styled.button`
-  color: ${({ dark, theme }) =>
-    dark ? theme.colors.lightShade : theme.colors.heading}!important;
-  border-color: ${({ dark, theme }) =>
-    dark ? theme.colors.lightShade : theme.colors.heading}!important;
-`;
 
 const Header = () => {
   const gContext = useContext(GlobalContext);
-  const cContext = useContext(CartContext);
   const [showScrolling, setShowScrolling] = useState(false);
   const [showReveal, setShowReveal] = useState(false);
 
@@ -224,18 +217,13 @@ const Header = () => {
 
             {gContext.header.button === "cta" && (
               <div className="header-btn ml-auto ml-lg-0 mr-6 mr-lg-0 d-none d-xs-block">
-                <a href="tel:049636110" target="_blank" className="btn bg-narvik rounded-0 text-blue font-weight-bold">
+                <a href="tel:049636110" target="_blank" rel="noreferrer" className="btn bg-narvik rounded-0 text-blue font-weight-bold">
                   {gContext.header.buttonText}
                 </a>
               </div>
             )}
 
-            {gContext.header.button === "cart" && (
-              <Link to="/cart" className="header-cart">
-                <i className="fas fa-shopping-cart"></i>
-                <span className="car">{cContext.products.length}</span>
-              </Link>
-            )}
+           
 
             {gContext.header.button === "account" && (
               <div className="header-btns d-none d-xs-block  ml-auto ml-lg-3 mr-6 mr-lg-0">
@@ -262,7 +250,7 @@ const Header = () => {
         show={gContext.visibleOffCanvas}
         onHideOffcanvas={gContext.toggleOffCanvas}
       >
-        <NestedMenu menuItems={menuItems} />
+       
       </Offcanvas>
     </>
   );
