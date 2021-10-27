@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Link } from "gatsby";
-import img3d from "../assets/image/png/C1/c1-resized-3d.png";
-import img2d from "../assets/image/png/C1/c1-resized-2d.png";
+import img3d from "../assets/image/png/C6/c6-3d-resized.png";
+import img2d from "../assets/image/png/C6/c6-2d-resized.png";
 
 
-const Tipic1 = () => { 
+const Tipic6 = () => { 
   return (
     <>
     <PageWrapper
@@ -34,9 +34,9 @@ const Tipic1 = () => {
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mt-5 mb-11 mb-lg-17">
-                <h2 className="title gr-text-3 mb-7">Tipi c1</h2>
+                <h2 className="title gr-text-3 mb-7">Tipi c6</h2>
                 <p className="px-lg-8 gr-text-5">
-                  90.43 m²{" "}
+                  129.11 m²{" "}
                 </p>
               </div>
             </Col>
@@ -57,7 +57,7 @@ const Tipic1 = () => {
                 <i className="icon icon-check-simple"></i>
                 </span>
                 <p className="gr-text-9 mb-0">
-                Terasa
+                2 Terasa
                 </p>
               </div>
             </Col>
@@ -67,7 +67,7 @@ const Tipic1 = () => {
                 <i className="icon icon-check-simple"></i>
                 </span>
                 <p className="gr-text-9 mb-0">
-                2 Dhoma Gjumi
+                3 Dhoma Gjumi
                 </p>
               </div>
             </Col>
@@ -87,7 +87,7 @@ const Tipic1 = () => {
                 <i className="icon icon-check-simple"></i>
                 </span>
                 <p className="gr-text-9 mb-0">
-                Banjo
+                2 Banjo
                 </p>
               </div>
             </Col>
@@ -189,4 +189,4 @@ const Tipic1 = () => {
   );
 };
 
-export default Tipic1;
+export default Tipic6;
