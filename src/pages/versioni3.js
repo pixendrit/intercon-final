@@ -4,9 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { Link } from "gatsby";
-import situacioni from "../assets/image/png/A4/Situacioni.png";
-import img3d from "../assets/image/png/A4/3d.png";
-import img2d from "../assets/image/png/A4/2d.png";
+import img3d from "../assets/image/png/A4/a4-3d-resized.png";
+import img2d from "../assets/image/png/A4/a4-2d-resized.png";
 
 
 const A402 = () => { 

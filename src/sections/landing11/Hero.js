@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
-import img2d from "../../assets/image/png/A4/2d.png";
+
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
       <div
         className="bg-image  pb-17 pt-24 pt-lg-32 pb-lg-28"
         css={`
-          background-image: url(${img2d});
+          
         `}
       >
         <Container>
