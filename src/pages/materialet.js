@@ -29,7 +29,7 @@ const Materialet = () => {
       >
         <Container>    
           <Row>  
-              <Link to="/materialet" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
+              <Link to="/betoni" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10">
               <div className="d-flex justify-content-between text-left gr-text-12 mb-8 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
                   BETONI
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
