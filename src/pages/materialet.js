@@ -35,7 +35,7 @@ const Materialet = () => {
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
                   </div>
               </Link>        
-              <Link to="/materialet" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10 ">
+              <Link to="/armatura" className="mb-4 mb-lg-4 col-lg-3 col-md-6 col-sm-10 ">
               <div className="d-flex justify-content-between text-left gr-text-12 mb-8 with-icon gr-hover-y rounded-0  btn btn-outline-primary btn-block text-primary">
                   ARMATURA
                     <i className="icon icon-tail-right text-primary font-weight-bold"></i>
