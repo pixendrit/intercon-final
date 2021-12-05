@@ -30,7 +30,7 @@ const Fasada = () => {
       >
         <Container>    
         <Content4 />
-        <Row className="align-items-center justify-content-center mt-20 pt-10 pb-10 bg-transparent">
+        <Row className="align-items-center justify-content-center mt-10 pt-10 pb-10 bg-transparent">
             <Col lg="10">
             <p className="gr-text-10 mb-10 text-center"> 
             Disa nga pamjet e fasadës strukturale të kompleksit tonë janë prezentuar përmes disa fotove dhe poashtu mund të eksploroni në detale përmes web-faqes duke shikuar objektin në pamje 360°  

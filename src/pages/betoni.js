@@ -30,7 +30,7 @@ const Betoni = () => {
       >
         <Container>    
         <Content />
-        <Row className="align-items-center justify-content-center mt-20 pt-10 pb-10 bg-transparent">
+        <Row className="align-items-center justify-content-center mt-10 pt-10 pb-10 bg-transparent">
             <Col lg="10">
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
