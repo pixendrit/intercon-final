@@ -101,7 +101,8 @@ const Content4 = () => (
                   data-aos="fade-left"
                   data-aos-duration="900"
                 >
-              
+              Përparsitë e përdorimit të kësaj fasade:
+
                 </Col>
 
                 <Col
