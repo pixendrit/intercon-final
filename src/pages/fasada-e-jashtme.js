@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Container, Row, Col } from "react-bootstrap";
 import imgHeroBg from "../assets/image/l8/png/cover-3.png";
 import PageWrapper from "../components/PageWrapper";
-import Content2 from "../sections/landing2/Content2";
+import Content4 from "../sections/landing2/Content4";
+import { Container, Row, Col } from "react-bootstrap";
 
-const Armatura = () => {
+const Fasada = () => {
 
   return (
     <>
@@ -29,9 +29,32 @@ const Armatura = () => {
         `}
       >
         <Container>    
-        <Content2 />
+        <Content4 />
         <Row className="align-items-center justify-content-center mt-20 pt-10 pb-10 bg-transparent">
             <Col lg="10">
+            <p className="gr-text-10 mb-10 text-center"> 
+            Disa nga pamjet e fasadës strukturale të kompleksit tonë janë prezentuar përmes disa fotove dhe poashtu mund të eksploroni në detale përmes web-faqes duke shikuar objektin në pamje 360°  
+
+            </p>
+            <div
+                className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center mb-5"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
+                <h2 className="title gr-text-5 mb-6 mb-sm-0 mr-sm-9 ">
+                  Shiko objektin 360°
+                </h2>
+                <div
+                  className="cta-btn"
+                  data-aos="zoom-in"
+                  data-aos-duration="700"
+                  data-aos-delay="500"
+                >
+                  <a  href="https://intercon3d.netlify.app/" target="_blank" className="btn btn-white bg-white gr-hover-y">
+                  <i class="fas fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
               <div
                 className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
                 data-aos="fade-right"
@@ -51,6 +74,7 @@ const Armatura = () => {
                   </Link>
                 </div>
               </div>
+
             </Col>
           </Row>
         </Container>
@@ -61,4 +85,4 @@ const Armatura = () => {
   );
 };
 
-export default Armatura;
+export default Fasada;

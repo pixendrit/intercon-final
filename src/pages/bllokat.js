@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import imgHeroBg from "../assets/image/l8/png/cover-3.png";
 import PageWrapper from "../components/PageWrapper";
 import Content3 from "../sections/landing2/Content3";
@@ -30,6 +30,29 @@ const Bllokat = () => {
       >
         <Container>    
         <Content3 />
+        <Row className="align-items-center justify-content-center mt-20 pt-10 pb-10 bg-transparent">
+            <Col lg="10">
+              <div
+                className="cta-text d-flex flex-column flex-sm-row align-items-center justify-content-center"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
+                <h2 className="title gr-text-5 mb-6 mb-sm-0 mr-sm-9 ">
+                  Kthehu te materialet
+                </h2>
+                <div
+                  className="cta-btn"
+                  data-aos="zoom-in"
+                  data-aos-duration="700"
+                  data-aos-delay="500"
+                >
+                  <Link to="/materialet" className="btn btn-white bg-white gr-hover-y">
+                  <i class="fas fa-arrow-left"></i>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </Container>
     
       </div>
