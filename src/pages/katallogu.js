@@ -31,33 +31,33 @@ class Katallogu extends Component {
                             <Row className="justify-content-center mt-md-6 pt-24 pb-10 pt-lg-29">
                                 <img src={imagePath} alt="katallogu" useMap="#image-map" className="w-100"/>
                                 <map name="image-map">
-                                <Link to="/tipia5" >
-                                    <area target="_blank" alt="a5-1" title="a5-1"  coords="249,333,251,466,317,465,317,485,349,483,351,437,397,435,397,334"
+                                <Link to="/tipia5-b" >
+                                    <area target="_blank" alt="a5-b" title="a5-b"  coords="249,333,251,466,317,465,317,485,349,483,351,437,397,435,397,334"
                                           shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia4" >
+                                <Link to="/tipia4-b" >
                                     <area target="_blank" alt="a4-1" title="a4-1"  coords="488,333,489,435,398,438,397,333" shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia3" >
-                                    <area target="_blank" alt="a3-1" title="a3-1"  coords="665,450,557,449,556,439,487,432,487,330,525,333,528,352,665,351"
+                                <Link to="/tipia3-b" >
+                                    <area target="_blank" alt="a3-b" title="a3-b"  coords="665,450,557,449,556,439,487,432,487,330,525,333,528,352,665,351"
                                           shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia3" >
-                                    <area target="_blank" alt="a3-2" title="a3-2"  coords="664,351,802,353,802,332,845,333,844,437,776,437,776,449,665,451"
+                                <Link to="/tipia3-a" >
+                                    <area target="_blank" alt="a3-a" title="a3-a"  coords="664,351,802,353,802,332,845,333,844,437,776,437,776,449,665,451"
                                           shape="poly"/></Link>  
-                                <Link to="/tipia4" >
+                                <Link to="/tipia4-a" >
                                     <area target="_blank" alt="a4-2" title="a4-2"  coords="933,333,931,436,840,435,841,333" shape="poly"/></Link>  
-                                <Link to="/tipia5" >
-                                    <area target="_blank" alt="a5-2" title="a5-2" coords="934,333,933,435,981,437,982,486,1014,485,1016,467,1079,464,1079,333" shape="poly"/>
+                                <Link to="/tipia5-a" >
+                                    <area target="_blank" alt="a5-a" title="a5-a" coords="934,333,933,435,981,437,982,486,1014,485,1016,467,1079,464,1079,333" shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia6" >
+                                <Link to="/tipia6-a" >
                                     <area target="_blank" alt="a6-1" title="a6-1"  coords="982,486,1017,484,1017,467,1080,465,1080,592,981,591" shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia7" >
+                                <Link to="/tipia7-a" >
                                     <area target="_blank" alt="a7-1" title="a7-1"  coords="981,592,1078,592,1078,717,981,716" shape="poly"/>
                                 </Link>  
-                                <Link to="/tipia8" >
-                                    <area target="_blank" alt="a8-1" title="a8-1"  coords="982,717,1079,716,1076,879,966,879,966,782,979,782" shape="poly"/>
+                                <Link to="/tipia8-a" >
+                                    <area target="_blank" alt="a8-a" title="a8-a"  coords="982,717,1079,716,1076,879,966,879,966,782,979,782" shape="poly"/>
                                 </Link>  
                                 <Link to="/tipid8" >
                                     <area target="_blank" alt="d8" title="d8"  coords="969,883,1079,884,1079,1004,979,1005,978,960,969,959" shape="poly"/>
@@ -81,22 +81,22 @@ class Katallogu extends Component {
                                     <area target="_blank" alt="d5" title="d5"  coords="915,1125,917,1108,955,1103,956,1005,857,1004,858,1125" shape="poly"/></Link>  
                                 <Link to="/tipid7" >
                                      <area target="_blank" alt="d7" title="d7"  coords="956,1002,956,961,966,959,966,882,859,884,854,1004" shape="poly"/></Link>  
-                                <Link to="/tipia9" >
-                                     <area target="_blank" alt="a9-2" title="a9-2"  coords="857,879,966,877,966,779,957,777,956,718,855,718" shape="poly"/></Link>  
-                                <Link to="/tipia10" >
-                                    <area target="_blank" alt="a10-2" title="a10-2"  coords="858,716,957,716,958,593,859,593" shape="poly"/></Link>  
-                                <Link to="/tipia1" >
-                                    <area target="_blank" alt="a1-2" title="a1-2"  coords="915,549,916,505,950,500,951,459,797,458,797,551" shape="poly"/></Link>  
-                                <Link to="/tipia2" >
-                                    <area target="_blank" alt="a2-2" title="a2-2"  coords="796,458,777,458,776,451,665,451,666,551,797,550" shape="poly"/></Link>  
-                                <Link to="/tipia2" >
-                                    <area target="_blank" alt="a2-1" title="a2-1"  coords="663,451,557,450,557,458,532,459,533,550,664,551" shape="poly"/></Link>  
-                                <Link to="/tipia1" >
-                                    <area target="_blank" alt="a1-1" title="a1-1"  coords="529,458,532,550,415,550,414,504,380,501,380,459" shape="poly"/></Link>  
-                                <Link to="/tipia10" >
-                                    <area target="_blank" alt="a10-1" title="a10-1"  coords="370,595,471,593,472,716,370,718" shape="poly"/></Link>  
-                                <Link to="/tipia9" >
-                                    <area target="_blank" alt="a9-1" title="a9-1"  coords="372,720,373,781,362,781,363,882,474,879,476,717" shape="poly"/></Link>  
+                                <Link to="/tipia9-a" >
+                                     <area target="_blank" alt="a9-a" title="a9-a"  coords="857,879,966,877,966,779,957,777,956,718,855,718" shape="poly"/></Link>  
+                                <Link to="/tipia10-a" >
+                                    <area target="_blank" alt="a10-a" title="a10-a"  coords="858,716,957,716,958,593,859,593" shape="poly"/></Link>  
+                                <Link to="/tipia1-a" >
+                                    <area target="_blank" alt="a1-a" title="a1-a"  coords="915,549,916,505,950,500,951,459,797,458,797,551" shape="poly"/></Link>  
+                                <Link to="/tipia2-a" >
+                                    <area target="_blank" alt="a2-a" title="a2-a"  coords="796,458,777,458,776,451,665,451,666,551,797,550" shape="poly"/></Link>  
+                                <Link to="/tipia2-b" >
+                                    <area target="_blank" alt="a2-b" title="a2-b"  coords="663,451,557,450,557,458,532,459,533,550,664,551" shape="poly"/></Link>  
+                                <Link to="/tipia1-b" >
+                                    <area target="_blank" alt="a1-b" title="a1-b"  coords="529,458,532,550,415,550,414,504,380,501,380,459" shape="poly"/></Link>  
+                                <Link to="/tipia10-b" >
+                                    <area target="_blank" alt="a10-b" title="a10-b"  coords="370,595,471,593,472,716,370,718" shape="poly"/></Link>  
+                                <Link to="/tipia9-b" >
+                                    <area target="_blank" alt="a9-b" title="a9-b"  coords="372,720,373,781,362,781,363,882,474,879,476,717" shape="poly"/></Link>  
                                 <Link to="/tipic8" >
                                     <area target="_blank" alt="c8" title="c8"  coords="365,884,363,969,376,973,379,1055,409,1053,455,1070,465,1050,473,1050,472,883" shape="poly"/></Link>  
                                 <Link to="/tipic1" >
@@ -113,12 +113,12 @@ class Katallogu extends Component {
                                     <area target="_blank" alt="c6" title="c6"  coords="346,1217,383,1123,356,1114,354,1045,250,1044,252,1183" shape="poly"/></Link>  
                                 <Link to="/tipic7" > 
                                     <area target="_blank" alt="c7" title="c7"  coords="250,1041,354,1042,355,971,365,968,362,880,251,878" shape="poly"/></Link>  
-                                <Link to="/tipia8" >
-                                    <area target="_blank" alt="a8-2" title="a8-2"  coords="251,878,359,875,362,781,352,781,351,719,251,719" shape="poly"/></Link>  
-                                <Link to="/tipia7" >
-                                    <area target="_blank" alt="a7-2" title="a7-2"  coords="252,719,347,715,351,593,249,593" shape="poly"/></Link>  
-                                <Link to="/tipia6" >
-                                    <area target="_blank" alt="a6-3" title="a6-3"  coords="252,589,351,590,349,487,317,487,317,467,250,465" shape="poly"/>
+                                <Link to="/tipia8-b" >
+                                    <area target="_blank" alt="a8-b" title="a8-b"  coords="251,878,359,875,362,781,352,781,351,719,251,719" shape="poly"/></Link>  
+                                <Link to="/tipia7-b" >
+                                    <area target="_blank" alt="a7-b" title="a7-b"  coords="252,719,347,715,351,593,249,593" shape="poly"/></Link>  
+                                <Link to="/tipia6-b" >
+                                    <area target="_blank" alt="a6-b" title="a6-b"  coords="252,589,351,590,349,487,317,487,317,467,250,465" shape="poly"/>
                                 </Link>  
                                 </map>
 
