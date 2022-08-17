@@ -36,7 +36,7 @@ const Tipia7 = () => {
               <div className="section-title text-center mt-5 mb-3 mb-lg-5">
                 <h2 className="title gr-text-3 mb-7">Tipi A7</h2>
                 <p className="px-lg-8 gr-text-5">
-                  85.39 m²{" "}
+                  91.50 m²{" "}
                 </p>
               </div>
             </Col>
