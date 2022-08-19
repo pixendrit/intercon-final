@@ -34,7 +34,7 @@ const Tipia6 = () => {
           <Row className="justify-content-center">
             <Col xl="6" lg="7" md="9">
               <div className="section-title text-center mt-5 mb-3 mb-lg-5">
-                <h2 className="title gr-text-3 mb-7">Tipi A6</h2>
+                <h2 className="title gr-text-3 mb-7">Tipi B6</h2>
                 <p className="px-lg-8 gr-text-5">
                   85.39 m²{" "}
                 </p>
